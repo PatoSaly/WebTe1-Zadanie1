@@ -1,4 +1,59 @@
 body {
-    width: 70%;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    background: #D8DEDE;
+    font-family: 'Montserrat', sans-serif;
+    color: #252525;
 }
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 94.2px;
+
+}
+
+.navbar {
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+    background: rgb(42, 42, 42);
+    background: rgba(42, 42, 42, .7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 30px;
+    border-right: #D6D6D6 1px solid;
+}
+
+.navbar li:last-child {
+    border: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #D6D6D6;
+    text-decoration: none;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
