@@ -80,6 +80,13 @@ blockquote {
     color: #56515C;
 }
 
+hr {
+    height: 1px;
+    background-color: #56515C;
+    margin: 30px 0;
+    border: none;
+}
+
 .global-footer {
     color: #D6D6D6;
     text-align: right;
@@ -87,6 +94,21 @@ blockquote {
     margin-top: 40px;
     background: rgb(0, 33, 64);
     background: rgba(0, 33, 64, .7);
+}
+
+.list {
+    list-style-type: circle;
+}
+
+.list li {
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: #56515C 1px solid;
+    max-width: 300px;
+}
+
+.list li:last-child {
+    border: none;
 }
 
 
