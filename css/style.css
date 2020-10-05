@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #D8DEDE;
+    background: #C4C5B7;
     font-family: 'Montserrat', sans-serif;
     color: #252525;
 }
@@ -10,15 +10,14 @@ body {
     font-size: 60px;
     text-align: center;
     margin-top: 94.2px;
-
 }
 
 .navbar {
     margin: 0;
     padding: 16px 0;
     text-align: center;
-    background: rgb(42, 42, 42);
-    background: rgba(42, 42, 42, .7);
+    background: rgb(0, 33, 64);
+    background: rgba(0, 33, 64, .7);
     position: fixed;
     top: 0;
     width: 100%;
@@ -46,6 +45,49 @@ body {
     color:#fff;
 }
 
+.about-me {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.foto {
+    border-radius: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.text {
+    font-size: 22px;
+    line-height: 30px;
+    /* letter-spacing: 1px; */
+}
+
+.pquote {
+    float: right;
+    width: 300px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 18px;
+    padding-right: 0;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.special {
+    color: #56515C;
+}
+
+.global-footer {
+    color: #D6D6D6;
+    text-align: right;
+    padding: 10px 30px;
+    margin-top: 40px;
+    background: rgb(0, 33, 64);
+    background: rgba(0, 33, 64, .7);
+}
 
 
 
