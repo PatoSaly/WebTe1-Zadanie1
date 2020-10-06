@@ -3,20 +3,69 @@
     <head>
         <meta charset="UTF-8">
         <title>Zadanie 1</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
 
         <header>
-            <h1 class="title">Životopis</h1>
             <nav>
                 <ul class="navbar">
-                    <li><a href="index.html" class="navbar-link">O mne</a></li>
-                    <li><a href="cv.html" class="navbar-link">Životopis</a></li>
-                    <li><a href="rozvrh.html" class="navbar-link">Rozvrh</a></li>
+                    <li><a href="index.html">O mne</a></li>
+                    <li><a href="cv.html">Životopis</a></li>
+                    <li><a href="rozvrh.html">Rozvrh</a></li>
                 </ul>
             </nav>
         </header>
+
+        <section class="cv">
+            <h1 class="title special">Životopis</h1>
+
+            <div class="layout">
+                <aside class="contact group">
+                    <img src="img/foto1.jpg" alt="Fotka z Terchovej" height="200" width="200" class="cv-foto">
+                    <ul class="contact-items">
+                        <li>Patrik Šály</li>
+                        <li> <a href="mailto:salt.pato@gmail.com">saly.pato@gmail.com</a></li>
+                        <li><a href="tel:+421917260478">+421 917 260 478</a></li>
+                    </ul>
+                </aside>
+
+                <article class="cv-lists group">
+                    <h2 class="post-title special">Dosiahnuté vzdelanie:</h2>
+                    <ul class="cv-list">
+                        <li><span class="special">Gymnázium Františka Švantnera</span> 2014-2018</li>
+                    </ul>
+                    <hr>
+
+                    <h2 class="post-title special">Počítačové zručnosti:</h2>
+                    <ul class="cv-list">
+                        <li><span class="special">Python</span> - základy</li>
+                        <li><span class="special">Java, C, C++</span> - pokročilý</li>
+                        <li><span class="special">HTML, CSS</span> - pokročilý</li>
+                        <li><span class="special">PostgreSQL</span> - základy</li>
+                        <li><span class="special">Linux OS</span> - základy</li>
+                        <li><span class="special">Spring boot</span> - základy</li>
+                        <li><span class="special">Unity</span> - základy</li>
+                        <li><span class="special">Git</span> - základy</li>
+                    </ul>
+                    <hr>
+
+                    <h2 class="post-title special">Jazykové znalosti:</h2>
+                    <ul class="cv-list">
+                        <li><span class="special">Anglický jazyk</span> - Stredne pokročilý (B2)</li>
+                        <li><span class="special">Nemecký jazyk</span> - Začiatočník (A2)</li>
+                    </ul>
+                </article>
+            </div>
+
+        </section>
+
+        <footer class="global-footer">
+            made with words &copy; 2020
+        </footer>
+
+    
 
     </body>
 </html>

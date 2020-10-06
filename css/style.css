@@ -1,9 +1,28 @@
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear:both;
+}
+
+.group {
+	*zoom: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     background: #C4C5B7;
     font-family: 'Montserrat', sans-serif;
     color: #252525;
+    font-size: 22px;
 }
 
 .title {
@@ -45,7 +64,7 @@ body {
     color:#fff;
 }
 
-.about-me {
+section {
     width: 65%;
     margin: 0 auto;
 }
@@ -57,7 +76,6 @@ body {
 }
 
 .text {
-    font-size: 22px;
     line-height: 30px;
     /* letter-spacing: 1px; */
 }
@@ -78,6 +96,7 @@ blockquote {
 
 .special {
     color: #56515C;
+    font-weight: bold;
 }
 
 hr {
@@ -87,7 +106,12 @@ hr {
     border: none;
 }
 
+.post-title {
+    font-size: 26px;
+}
+
 .global-footer {
+    font-size: 16px;
     color: #D6D6D6;
     text-align: right;
     padding: 10px 30px;
@@ -96,7 +120,7 @@ hr {
     background: rgba(0, 33, 64, .7);
 }
 
-.list {
+ul {
     list-style-type: circle;
 }
 
@@ -104,12 +128,52 @@ hr {
     padding: 10px;
     font-size: 20px;
     border-bottom: #56515C 1px solid;
-    max-width: 300px;
+    max-width: 320px;
 }
 
 .list li:last-child {
     border: none;
 }
+
+.layout {
+    display: flex;
+    display: -webkit-flex;
+}
+
+
+.cv-foto {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    padding: 10px;
+    background-color: #E0BB82;
+    flex: 1;
+}
+
+.cv-lists {
+    padding: 10px;
+    background-color: #E3D0AE;
+    flex: 2;
+}
+
+.cv-lists li, .contact li {
+    padding: 5px;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.contact li a:hover {
+    color: #56515C;
+}
+
+
 
 
 
