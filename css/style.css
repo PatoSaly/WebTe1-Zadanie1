@@ -134,9 +134,8 @@ ul {
 
 .layout {
     display: flex;
-    display: -webkit-flex;
+    box-shadow: 0px 7px 26px -9px rgba(0,0,0,0.75);
 }
-
 
 .cv-foto {
     border-radius: 50%;
